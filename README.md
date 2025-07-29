@@ -1,8 +1,9 @@
 # 🧪 Simulated A/B Test Analysis – Smart Ticket Suggestions (Trainline-Inspired)
 
+
 ## 📌 Problem Statement
 
-Trainline, Europe’s leading rail travel platform, constantly aims to improve the ticket booking experience and increase conversion. One suspected drop-off point in the user journey is the ticket selection phase, where users may abandon their session due to decision fatigue or irrelevant results.
+One of Europe’s leading rail travel platform aims to improve the ticket booking experience and increase conversion. One suspected drop-off point in the user journey is the ticket selection phase, where users may abandon their session due to decision fatigue or irrelevant results.
 
 This project explores a simulated product experiment:  
 **What if we added a “Smart Ticket Suggestion” feature that recommends popular or cost-effective tickets? Would it improve booking conversion?**
@@ -34,7 +35,7 @@ The experiment is simulated with realistic user data (~10,000 records), assigned
 ✅ Implemented:
 - Synthetic user journey data generation using Python
 - SQL-style analysis using DuckDB inside Jupyter
-- Key metrics: Conversion rate, revenue per group, fare segmentation
+- Key metrics: Conversion rate, Suggestion CTR
 - Tableau dashboard with visual breakdowns and uplift summary
 
 📂 Key Files:
@@ -78,7 +79,7 @@ Includes:
 
 ## 💼 Business Relevance
 
-This project simulates a high-impact product experiment like those regularly tested at Trainline. It demonstrates how data analysts can:
+This project tries to simulate a high-impact product experiment like those regularly tested at companies like Trainline. It demonstrates how data analysts can:
 - Identify conversion pain points
 - Design experiments to test improvements
 - Measure uplift and segment impact
